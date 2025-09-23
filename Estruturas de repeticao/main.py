@@ -19,4 +19,3 @@ while pedido.lower() != 'sair': # o lower faz com que reconheça o resultado
 
 
 
-
