@@ -17,8 +17,15 @@
 
 
 # Loop com continue
-for num in range(10):
-    if num % 2 != 0:
-        continue
-    print(num)
+# for num in range(10):
+#     if num % 2 != 0:
+#         continue
+#     print(num)
 
+
+# Usando for com if
+
+print("Números pares (for com if) :")
+for numero in range(1,21):
+    if numero % 2 == 0:
+        print(numero, end=" ")
