@@ -12,19 +12,22 @@ while pedido != "sair":
     pedido=input("Digite o seu sabor de pizza ")
     if pedido in menu:
         lista.append(pedido)
-        lista.app
         print(f"Sabor de {pedido} adicionado ao pedido!")
+    elif pedido not in menu:
+        print("Sabor não encontrado")
+
+
+## pegar o valor da chave
 
 soma = 0
 for total in lista:
-    if total in menu:
-        
+    print(f"Seu pedido foi: {total}")
+    soma += menu[total] ## acessando o valor da chave, através da chave do dicionário
+print(f"O total do seu pedido deu: R$:{soma}")
 
 
 
 
-
-print(lista)
 
 
 

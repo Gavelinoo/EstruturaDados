@@ -9,7 +9,6 @@ def main():
     Israel = Aluno("Israel", "25", "3234123212", "Quartel", "23423234324", "123")
     Manoel = Funcionario("Manoel", "56", "41234234233","Rua do catete", "252781286","Zelador")
 
-
     Jorge.mostrar_detalhes()
     Bruno.mostrar_detalhes()
     Manoel.mostrar_detalhes()
