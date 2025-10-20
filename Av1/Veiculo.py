@@ -9,6 +9,14 @@ class Veiculo:
         self.cor = cor
         self.quilometragem = quilometragem
 
+    def registrar_manutencao(self, tipo, custo):
+        self.tipo = tipo
+        self.custo = custo
+
     def exibir_informacoes(self):
+        return self.tipo
+        return self.custo
+
+
         
 
