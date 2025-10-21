@@ -13,6 +13,7 @@ class Veiculo:
         self.tipo = tipo
         self.custo = custo
 
+
     def exibir_informacoes(self):
         return self.tipo
         return self.custo
