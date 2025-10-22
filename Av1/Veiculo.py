@@ -10,13 +10,16 @@ class Veiculo:
         self.quilometragem = quilometragem
 
     def registrar_manutencao(self, tipo, custo):
-        self.tipo = tipo
-        self.custo = custo
+        return f"""
+        O tipo do seu veiculo é {tipo} e custa {custo}
+    """
 
 
-    def exibir_informacoes(self):
-        return self.tipo
-        return self.custo
+
+    def exibir_informacoes(self, detalhe=false):
+        if detalhado:
+            return
+
 
 
         
