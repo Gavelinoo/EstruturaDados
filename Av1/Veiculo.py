@@ -14,11 +14,24 @@ class Veiculo:
         O tipo do seu veiculo é {tipo} e custa {custo}
     """
 
-
-
-    def exibir_informacoes(self, detalhe=false):
+    def exibir_informacoes(self, detalhado=False):
         if detalhado:
-            return
+            return f"""
+            Marca:{self.marca}
+            Modelo:{self.modelo}
+            Quilotametragem:{self.quilometragem}      
+            
+            """
+        else:
+            return f"""
+            Marca:{self.marca}
+            Modelo:{self.modelo}
+            Ano Fabric:{self.ano_fabricacao}
+            Quilotametragem:{self.quilometragem}
+            Chassi:{self.chassi}
+            cor:{self.quilometragem}          
+            
+            """
 
 
 
