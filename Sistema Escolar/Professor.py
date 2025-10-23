@@ -6,5 +6,6 @@ class Professor(Pessoa):
 
     def mostrar_detalhes(self):
         super().mostrar_detalhes()
+
         print(f"Disciplina: {self.disciplina}")
 

@@ -8,11 +8,13 @@ class Pessoa:
         self.telefone = telefone
 
     def mostrar_detalhes(self):
-        print(f""
-              f"Dados Pessoais\n"
-              f"Nome: {self.nome}\n"
-              f"idade: {self.idade}\n"
-              f"cpf: {self.cpf}\n"
-              f"endereco: {self.endereco}\n"
-              f"telefone: {self.telefone}\n")
+        return f'''
+    Nome: {self.nome}
+    Idade: {self.idade}
+    CPF: {self.cpf}
+    Endereço: {self.endereco}
+    Telefone: {self.telefone}    
+    '''
+
+
 
