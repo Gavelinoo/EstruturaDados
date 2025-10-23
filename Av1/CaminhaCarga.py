@@ -12,8 +12,8 @@ class CaminhaoCarga(Veiculo):
 
     def exibir_informacoes(self):
         super().exibir_informacoes()
-        return f"""             
+        print(f"""             
         Capacidade toneladas: {self.capacidade_toneladas}
         eixos: {self.eixos}        
-        """
+        """)
 
