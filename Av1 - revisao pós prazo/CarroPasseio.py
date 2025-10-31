@@ -11,11 +11,14 @@ class CarroPasseio(Veiculo):
         depreciacao = anos_uso * taxa_extra
         print(f"Seu carro teve {anos_uso} anos de uso e sua depreciacao foi de {depreciacao}")
 
+
+    # Sobreescrita de metodo = polimorfismo
     def exibir_informacoes(self):
-        super().exibir_informacoes()
-        return f"""
+        detalhes_veiculo =  super().exibir_informacoes()
+        return f""" {detalhes_veiculo}
         "Qtde Portas:{self.numero_portas}
-        Tipo combustivel{self.tipo_combustivel}   
-        """
+    Tipo combustivel:{self.tipo_combustivel}  
+     
+    """
 
 

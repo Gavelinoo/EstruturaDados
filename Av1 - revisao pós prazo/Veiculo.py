@@ -10,19 +10,13 @@ class Veiculo:
         self.quilometragem = quilometragem
 
     def registrar_manutencao(self, tipo, custo):
-        print( f"""
+        return (f"""
             O tipo do seu veiculo é {tipo} e custo é de: {custo}
         """)
 
-    def exibir_informacoes(self, detalhado=False):
+    def exibir_informacoes(self, detalhado=True):
         if detalhado:
             print(f"""
-            Marca:{self.marca}
-            Modelo:{self.modelo}
-            Quilometragem:{self.quilometragem}      
-            """)
-        else:
-            print (f"""
             Marca:{self.marca}
             Modelo:{self.modelo}
             Ano Fabric:{self.ano_fabricacao}
@@ -30,6 +24,13 @@ class Veiculo:
             Chassi:{self.chassi}
             cor:{self.quilometragem}          
             """)
+        else:
+            print(f"""
+            Marca:{self.marca}
+            Modelo:{self.modelo}
+            Quilometragem:{self.quilometragem}      
+            """)
+
 
 
 
