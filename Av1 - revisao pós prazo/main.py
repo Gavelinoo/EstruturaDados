@@ -10,7 +10,9 @@ def main():
     Kwid = CarroPasseio("Renault", "1.0", "2017","31243", "Prata", "7000", "2", "Gasolina")
     print(Kwid.exibir_informacoes())
     Kwid.calcular_depreciacao(5, 0.15)
-
+    Scania = CaminhaoCarga("Scania", "2.0","2019","23123","Branco","0","15","6")
+    print(Scania.exibir_informacoes())
+    Scania.registrar_vistoria("Manutencao","1000")
 
 if __name__ == "__main__":
     main()

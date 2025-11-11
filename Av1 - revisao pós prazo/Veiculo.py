@@ -14,7 +14,7 @@ class Veiculo:
             O tipo do seu veiculo é {tipo} e custo é de: {custo}
         """)
 
-    def exibir_informacoes(self, detalhado=True):
+    def exibir_informacoes(self, detalhado=None):
         if detalhado:
             print(f"""
             Marca:{self.marca}

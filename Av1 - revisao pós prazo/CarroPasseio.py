@@ -14,11 +14,10 @@ class CarroPasseio(Veiculo):
 
     # Sobreescrita de metodo = polimorfismo
     def exibir_informacoes(self):
-        detalhes_veiculo =  super().exibir_informacoes()
+        detalhes_veiculo =  super().exibir_informacoes(True)
         return f""" {detalhes_veiculo}
         "Qtde Portas:{self.numero_portas}
     Tipo combustivel:{self.tipo_combustivel}  
-     
     """
 
 

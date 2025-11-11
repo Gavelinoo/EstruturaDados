@@ -9,11 +9,12 @@ class CaminhaoCarga(Veiculo):
     def registrar_vistoria(self, motivo, multa):
         self.motivo = motivo
         self.multa = multa
+        print(f"Em razao de {motivo} você obteve uma multa de {multa}")
 
     def exibir_informacoes(self):
-        super().exibir_informacoes()
-        print(f"""             
+        detalhes_veiculo = super().exibir_informacoes(True)
+        return f"""{detalhes_veiculo}             
         Capacidade toneladas: {self.capacidade_toneladas}
         eixos: {self.eixos}        
-        """)
+        """
 
