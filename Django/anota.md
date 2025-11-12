@@ -12,3 +12,8 @@
 
 Projeto (Loja)
 Apps  -> Produto, Perfil, Pedido
+
+
+## Principais comandos do Django
+
+7.python manage.py makemigrations > Prepara as alterações
