@@ -13,7 +13,15 @@
 Projeto (Loja)
 Apps  -> Produto, Perfil, Pedido
 
+Models - TUdo que irá virar uma tabela
+
 
 ## Principais comandos do Django
 
 7.python manage.py makemigrations > Prepara as alterações
+
+
+Criar app cadastros dps
+Criar o urls.py, igualar o views, e tirar a referencia admin do views do sistema
+criar templates para referenciar
+Atualizar o listar_usuarios.html com os elemtnso de django e interpolação
